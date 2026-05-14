@@ -1,0 +1,234 @@
+:root {
+  --color-bg: #f8f7f4;
+  --color-text: #2c2c2c;
+  --color-text-muted: #6b6b6b;
+  --color-accent: #3d5a80;
+  --color-border: #ddd;
+  --color-footer-bg: #2c2c2c;
+  --color-footer-text: #f8f7f4;
+  --color-btn-disabled-bg: #d0d0d0;
+  --color-btn-disabled-text: #999;
+  --max-width: 900px;
+  --padding-x: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* ── Banner ── */
+.site-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-img {
+  display: block;
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 640px) {
+  .banner-img { max-height: 360px; }
+}
+
+@media (min-width: 900px) {
+  .banner-img { max-height: 420px; }
+}
+
+/* ── Content sections ── */
+.intro-section,
+.important-section,
+.news-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem var(--padding-x);
+}
+
+/* ── Introduction ── */
+.intro-title {
+  font-size: 1.15rem;
+  font-weight: normal;
+  color: var(--color-text);
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/* ── Section divider (shared: Important + Nouvelles) ── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.divider-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent);
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ── Important section ── */
+.important-date {
+  display: block;
+  font-size: 0.78rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-accent);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.important-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.important-btn {
+  display: block;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: var(--color-accent);
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: opacity 0.15s;
+}
+
+.important-btn:hover {
+  opacity: 0.85;
+}
+
+/* ── News grid ── */
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+/* ── News card ── */
+.news-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1.25rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-title {
+  flex: 1;
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.card-date {
+  display: block;
+  font-size: 0.78rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-accent);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--color-text);
+  text-align: justify;
+}
+
+/* ── Document icon button ── */
+.card-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: var(--color-accent);
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.card-btn:hover {
+  opacity: 0.85;
+}
+
+.card-btn--disabled {
+  background: var(--color-btn-disabled-bg);
+  color: var(--color-btn-disabled-text);
+  pointer-events: none;
+  cursor: default;
+}
+
+.card-btn--disabled:hover {
+  opacity: 1;
+}
+
+/* ── Footer ── */
+.site-footer {
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding: 2rem var(--padding-x);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.footer-copyright,
+.footer-contact {
+  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-footer a {
+  color: var(--color-footer-text);
+  text-decoration: underline;
+}

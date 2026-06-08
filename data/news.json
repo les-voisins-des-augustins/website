@@ -1,16 +1,30 @@
 [
   {
-    "id": "news-001",
-    "title": "Entretien de la cour intérieure",
-    "text": "La prochaine activité communautaire est l'entretien de la cour intérieure. Au programme : désherbage, remplacement des plantes et bien d'autres tâches. Toutes les bonnes volontés sont les bienvenues !",
-    "date": "À venir",
+    "id": "news-004",
+    "title": "🧹 | Entretien de la cour intérieure",
+    "text": "Notre prochaine activité sera un <strong>entretien de la cour intérieure</strong>. Suite à nos discussions, nous avons établi une liste de tâches (non exhaustive) accessible via le document Word en lien. Dans ce document, vous pouvez ajouter votre nom à côté des tâches qui vous intéressent, indiquer le matériel que vous pouvez apporter, ou encore proposer de nouvelles tâches. Si vous n'étiez pas présent lors des discussions ou si vous avez des suggestions, n'hésitez pas à le faire savoir sur notre groupe. Et pour finir la journée en beauté, après tout ce dur labeur, on pourra se récompenser en commandant à manger ou en allant chercher des frites !",
+    "date": "2026-07-05",
     "documentUrl": "https://docs.google.com/document/d/1L6TOPqTdjvD3S0NlsgT0xKo1AwIFTZi81c5vdgd1P6U/edit?usp=sharing"
   },
   {
-    "id": "news-002",
-    "title": "Entretien d'une cave et voyage au parc à conteneurs",
-    "text": "Manon et Victor organisent le nettoyage de la cave de Noémie et feront venir une remorque pour évacuer les encombrants du parc à conteneurs. Si vous souhaitez donner un coup de main, n'hésitez pas à les contacter !",
+    "id": "news-003",
+    "title": "🌱 | Une visite chez Oh'Green",
+    "text": "Pour préparer l'entretien de la cour intérieure, nous prévoyons une visite chez Oh'Green afin d'acheter plantes, pots et autres fournitures. Nous créerons un groupe WhatsApp avec les personnes déjà intéressées (Manon, Victor, Noémie, Mike, Caroline) pour organiser cette sortie. Si vous souhaitez vous joindre à nous, n'hésitez pas à nous contacter ! La date reste à définir.",
     "date": "À venir",
     "documentUrl": ""
+  },
+  {
+    "id": "news-002",
+    "title": "📢 | Annonce: Recherche de remoque",
+    "text": "Nous sommes plusieurs à la recherche d'une remorque pour transporter les déchets lors de l'entretien de la cave. Si vous en avez une à prêter, n'hésitez pas à nous contacter (Victor, Manon & Noémie) ! Nous organiserons également une journée pour permettre à tout le monde de se débarrasser de ses encombrants.",
+    "date": "À venir",
+    "documentUrl": ""
+  },
+  {
+    "id": "news-001",
+    "title": "🧼 | Entretien de la cave",
+    "text": "Manon et Victor se sont occupés de nettoyer une partie des couloirs ainsi que la cave de Noémie. Une partie des encombrants se trouve déjà dans le couloir, prête à être évacuée. Nous tenons cependant à souligner qu'il reste beaucoup à jeter dans les caves, une journée collective de nettoyage ne serait pas de trop. Mike a d'ailleurs constaté la présence de produits chimiques stockés dans les caves. Pour les curieux, quelques photos de notre aventure sont accessibles.",
+    "date": "2026-06-06",
+    "documentUrl": "https://drive.google.com/drive/folders/1l45KqY-DG2ddNrMXpv3Q43q5bs-r3PD1?usp=share_link"
   }
 ]

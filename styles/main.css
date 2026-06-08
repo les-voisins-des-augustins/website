@@ -12,6 +12,8 @@
   --padding-x: 1.5rem;
 }
 
+[hidden] { display: none !important; }
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
